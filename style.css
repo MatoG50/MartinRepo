@@ -12,23 +12,19 @@ body {
 }
 
 .main {
-  width: 1440px;
   margin: 200px auto;
+  display: flex;
+  width: 80%;
+  align-items: center;
 }
 
 img {
   height: 600px;
   width: auto;
-  float: left;
   padding: 20px;
   margin: 5px;
 }
-.child {
-  margin-top: 150px;
-  margin-left: 700px;
-  position: absolute;
-  margin-right: 170px;
-}
+
 h1 {
   color: #39dede;
   margin-bottom: 50px;
